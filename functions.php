@@ -320,3 +320,15 @@ add_action('admin_enqueue_scripts', function($hook) {
         );
     }
 });
+
+add_action('admin_enqueue_scripts', function($hook) {
+    if ($hook === 'be-theme_page_be-setup' || 
+        strpos($hook, 'be-setup') !== false) {
+        wp_enqueue_style(
+            'betheme-setup-ui',
+            get_template_directory_uri() . '/css/betheme-setup-ui.css',
+            [],
+            time()
+        );
+    }
+});

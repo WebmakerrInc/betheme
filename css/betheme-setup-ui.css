@@ -1,0 +1,82 @@
+/* MAIN SETUP WRAPPER */
+.mfn-setup {
+  max-width: 1200px !important;
+  margin: 30px auto !important;
+  padding: 30px !important;
+  background: #fff !important;
+  border: 1px solid #e5e5e5 !important;   /* clean professional border */
+  border-radius: 10px !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04) !important;
+  box-sizing: border-box !important;
+}
+
+/* SETUP CARDS */
+.mfn-setup-card {
+  background: #fff !important;
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 8px !important;
+  padding: 24px !important;
+  margin-bottom: 20px !important;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.03) !important;
+  box-sizing: border-box !important;
+}
+
+/* TYPOGRAPHY */
+.mfn-setup *,
+.mfn-setup-card * {
+  font-family: "Inter", sans-serif !important;
+  color: #222 !important;
+}
+
+/* HEADINGS */
+.mfn-setup h1,
+.mfn-setup h2,
+.mfn-setup h3 {
+  font-weight: 600 !important;
+  margin-bottom: 18px !important;
+  color: #000 !important;
+}
+
+/* BUTTONS */
+.mfn-setup .button,
+.mfn-setup .mfn-button {
+  background: #000 !important;
+  color: #fff !important;
+  padding: 10px 22px !important;
+  border-radius: 6px !important;
+  border: none !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+  transition: .15s ease !important;
+}
+
+.mfn-setup .button:hover,
+.mfn-setup .mfn-button:hover {
+  background: #111 !important;
+}
+
+/* SECONDARY BUTTONS */
+.mfn-setup .button-secondary,
+.mfn-setup .mfn-button-secondary {
+  background: #777 !important;
+  color: #fff !important;
+  border-radius: 6px !important;
+  padding: 10px 22px !important;
+}
+
+/* INPUT FIELDS */
+.mfn-setup input,
+.mfn-setup select,
+.mfn-setup textarea {
+  border: 1px solid #ddd !important;
+  border-radius: 6px !important;
+  padding: 10px 14px !important;
+  background: #fff !important;
+}
+
+.mfn-setup input:focus,
+.mfn-setup select:focus,
+.mfn-setup textarea:focus {
+  border-color: #000 !important;
+  box-shadow: 0 0 0 1px #000 !important;
+}
