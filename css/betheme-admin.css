@@ -1,0 +1,73 @@
+/* Font applies ONLY to BeTheme admin pages */
+.wrap.mfn-wrapper *,
+.mfn-ui *,
+.beframework * {
+  font-family: "Inter", sans-serif !important;
+}
+
+/* Panels (BeTheme only) */
+.mfn-ui .mfn-panel,
+.beframework .option-item {
+  background: #fff !important;
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 8px !important;
+  padding: 24px !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04) !important;
+}
+
+/* Buttons (BeTheme only) */
+.mfn-ui .mfn-btn,
+.beframework .button-primary {
+  background: #000 !important;
+  color: #fff !important;
+  border-radius: 6px !important;
+  padding: 10px 20px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.mfn-ui .mfn-btn-secondary,
+.beframework .button-secondary {
+  background: #777 !important;
+  color: #fff !important;
+  border-radius: 6px !important;
+  padding: 10px 20px !important;
+  border: none !important;
+}
+
+/* Inputs (BeTheme only) */
+.mfn-ui input,
+.mfn-ui select,
+.mfn-ui textarea,
+.beframework input[type=text],
+.beframework select,
+.beframework textarea {
+  border: 1px solid #ddd !important;
+  border-radius: 6px !important;
+  padding: 10px 14px !important;
+}
+
+.mfn-ui input:focus,
+.beframework input:focus {
+  border-color: #000 !important;
+  box-shadow: 0 0 0 1px #000 !important;
+}
+
+/* Tabs (BeTheme only) */
+.mfn-ui .mfn-tab-nav li a {
+  padding: 12px 18px !important;
+  border-radius: 6px !important;
+}
+
+.mfn-ui .mfn-tab-nav li.active a {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+/* Headers (BeTheme only) */
+.mfn-ui .mfn-header,
+.beframework .section-header {
+  background: #fafafa !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+  padding: 18px !important;
+}

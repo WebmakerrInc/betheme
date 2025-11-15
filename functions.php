@@ -295,3 +295,17 @@ add_action('wp_enqueue_scripts', function() {
     );
 }, 20);
 
+add_action('admin_enqueue_scripts', function($hook) {
+    // Load CSS ONLY on BeTheme admin pages
+    if (
+        strpos($hook, 'betheme') !== false ||
+        strpos($hook, 'mfn') !== false
+    ) {
+        wp_enqueue_style(
+            'betheme-admin-ui',
+            get_template_directory_uri() . '/css/betheme-admin.css',
+            [],
+            time()
+        );
+    }
+});
