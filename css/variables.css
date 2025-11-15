@@ -1,0 +1,17 @@
+:root {
+  --primary: #000000;
+  --primary-text: #ffffff;
+
+  --secondary: #777777;
+  --secondary-text: #ffffff;
+
+  --border-color: #e5e5e5;
+  --border-radius: 6px;
+
+  --section-padding: 80px;
+  --container-padding: 20px;
+
+  --btn-padding: 14px 28px;
+  --card-padding: 28px;
+  --heading-weight: 700;
+}

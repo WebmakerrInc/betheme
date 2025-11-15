@@ -1,0 +1,85 @@
+/* GLOBAL MINIMALIST DESIGN */
+body {
+  font-family: "Inter", sans-serif;
+  color: #111;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  font-weight: var(--heading-weight) !important;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+/* SECTIONS + CONTAINERS */
+.section,
+.wrap,
+.container,
+.content_wrapper {
+  padding-top: var(--section-padding) !important;
+  padding-bottom: var(--section-padding) !important;
+}
+
+.section_wrapper,
+.container,
+.wrap {
+  padding-left: var(--container-padding) !important;
+  padding-right: var(--container-padding) !important;
+}
+
+/* PRIMARY BUTTON */
+.button,
+.mfn-button,
+.btn,
+input[type=submit],
+a.button_theme {
+  background: var(--primary) !important;
+  color: var(--primary-text) !important;
+  border-radius: var(--border-radius) !important;
+  padding: var(--btn-padding) !important;
+  font-weight: 600 !important;
+  border: 1px solid transparent !important;
+  transition: 0.2s ease;
+}
+
+.button:hover,
+.mfn-button:hover,
+.btn:hover {
+  background: #111 !important; /* darker hover */
+}
+
+/* SECONDARY BUTTON */
+.button-secondary,
+.btn-secondary,
+.mfn-button-secondary {
+  background: var(--secondary) !important;
+  color: var(--secondary-text) !important;
+  border-radius: var(--border-radius) !important;
+  padding: var(--btn-padding) !important;
+  border: 1px solid transparent !important;
+  font-weight: 500 !important;
+}
+
+.button-secondary:hover,
+.btn-secondary:hover,
+.mfn-button-secondary:hover {
+  background: #555 !important;
+}
+
+/* MINIMAL BORDERS FOR CLEAN UI */
+.column,
+.mcb-item,
+.feature_box,
+.icon_box,
+.offer,
+.pricing-box {
+  border: 1px solid var(--border-color) !important;
+  border-radius: var(--border-radius) !important;
+  padding: var(--card-padding) !important;
+  box-shadow: none !important;
+}
+
+/* EVEN SPACING FIX */
+.column .column_attr {
+  padding: 10px 0 !important;
+}
