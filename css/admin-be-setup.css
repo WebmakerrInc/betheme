@@ -1,0 +1,75 @@
+/* Apply ONLY to the BeTheme Setup page */
+body.wp-admin.admin_page_be-setup .wrap,
+#be-setup-wrapper,
+#be-setup-content,
+.be-setup-container {
+  max-width: 1200px !important;
+  background: #fff !important;
+  border: 1px solid #e5e5e5 !important; /* subtle, professional border */
+  border-radius: 10px !important;
+  padding: 30px !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04) !important;
+  margin-top: 30px !important;
+  margin-bottom: 40px !important;
+}
+
+/* Improve typography for the setup page only */
+body.wp-admin.admin_page_be-setup * {
+  font-family: "Inter", sans-serif !important;
+  color: #222 !important;
+}
+
+/* Headings */
+body.wp-admin.admin_page_be-setup h1,
+body.wp-admin.admin_page_be-setup h2,
+body.wp-admin.admin_page_be-setup h3 {
+  margin-bottom: 18px !important;
+  font-weight: 600 !important;
+  color: #000 !important;
+}
+
+/* Spacing for items */
+body.wp-admin.admin_page_be-setup .mfn-box,
+body.wp-admin.admin_page_be-setup .be-setup-step,
+body.wp-admin.admin_page_be-setup .be-container {
+  border: 1px solid #eaeaea !important;
+  border-radius: 8px !important;
+  padding: 24px !important;
+  margin-bottom: 20px !important;
+  background: #fff !important;
+}
+
+/* Buttons - professional minimalist buttons */
+body.wp-admin.admin_page_be-setup .button-primary,
+body.wp-admin.admin_page_be-setup .mfn-button,
+body.wp-admin.admin_page_be-setup .button {
+  background: #000 !important;
+  color: #fff !important;
+  padding: 10px 22px !important;
+  border-radius: 6px !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-weight: 600 !important;
+}
+
+body.wp-admin.admin_page_be-setup .button:hover,
+body.wp-admin.admin_page_be-setup .mfn-button:hover {
+  background: #111 !important;
+}
+
+/* Secondary buttons */
+body.wp-admin.admin_page_be-setup .button-secondary {
+  background: #777 !important;
+  color: #fff !important;
+  padding: 10px 22px !important;
+  border-radius: 6px !important;
+}
+
+/* Remove BeTheme old clutter styling */
+body.wp-admin.admin_page_be-setup .mfn-info,
+body.wp-admin.admin_page_be-setup .mfn-ui-info,
+body.wp-admin.admin_page_be-setup .info {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
