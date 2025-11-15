@@ -278,3 +278,20 @@ define('THEME_VERSION', MFN_THEME_VERSION);
 
 define('LIBS_DIR', get_template_directory() .'/functions');
 define('LIBS_URI', get_template_directory() .'/functions');
+
+add_action('wp_enqueue_scripts', function() {
+    wp_enqueue_style(
+        'betheme-variables',
+        get_template_directory_uri() . '/css/variables.css',
+        [],
+        time()
+    );
+
+    wp_enqueue_style(
+        'betheme-custom-ui',
+        get_template_directory_uri() . '/css/custom.css',
+        ['betheme-variables'],
+        time()
+    );
+}, 20);
+
